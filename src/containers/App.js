@@ -40,9 +40,9 @@ class App extends Component {
       <h1>Loading</h1> : 
       (
         <div className='tc'>
-          <h1 className='f1'>Hatdog ka</h1>
+          <Header/>>
           <SearchBox searchChange={onSearchChange}/>
-          <Header/>
+          
           <Scroll>
             <ErrorBoundry>
               <CardList robots={filteredRobots}/>
